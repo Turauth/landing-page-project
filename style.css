@@ -1,0 +1,27 @@
+html {
+    font-family: "Roboto", sans-serif;
+}
+
+.hero {
+    background: #1f2973;
+    color: #f9faf8;
+}
+
+.header {
+    display: flex;
+    gap: 20px;
+}
+
+.header div {
+    font-size: 24px;
+}
+
+.header a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.right {
+    margin-left: auto;
+}

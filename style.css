@@ -14,21 +14,55 @@ body {
     background-color: #1f2937;
     color: #f9faf8;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
-.header {
+.header,
+.hero-content {
     display: flex;
-    justify-content: space-around;
     font-size: 24px;
+    font-weight: bold;
+    gap: 50px;
+    margin: 0 300px;
 }
 
 .right {
     display: flex;
     gap: 30px;
+    margin-left: auto;
 }
 
-.right a {
+.secondary,
+.secondary a {
     font-size: 18px;
     color: #e5e7eb;
     text-decoration: none;
+    font-weight: 400;
+}
+
+img {
+    width: 550px;
+}
+
+.hero-content {
+    margin: 150px 300px 100px;
+}
+
+.hero-text {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 40px;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+button {
+    align-self: flex-start;
+    color: #f9faf8;
+    font-weight: bold;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 8px;
+    padding: 7px 25px;
 }

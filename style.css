@@ -2,26 +2,33 @@ html {
     font-family: "Roboto", sans-serif;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    margin: 0;
+    padding: 0;
+}
+
 .hero {
-    background: #1f2973;
+    background-color: #1f2937;
     color: #f9faf8;
+    padding: 20px;
 }
 
 .header {
     display: flex;
-    gap: 20px;
-}
-
-.header div {
+    justify-content: space-around;
     font-size: 24px;
 }
 
-.header a {
+.right {
+    display: flex;
+    gap: 30px;
+}
+
+.right a {
     font-size: 18px;
     color: #e5e7eb;
     text-decoration: none;
-}
-
-.right {
-    margin-left: auto;
 }

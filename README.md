@@ -1,4 +1,4 @@
-# landing-page-project
+# landing-page-project (in progress)
 
 
     The font that’s being used in the images is roboto.
